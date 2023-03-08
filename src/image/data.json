@@ -1,0 +1,52 @@
+{
+  "p1": {
+    "id": 1001,
+    "name": "Name",
+    "price": "$10.00",
+    "color": "black",
+    "sizes": ["xs", "s", "m", "l"],
+    "image": ["https://www.freepik.com/free-psd/jerzees-pullover-hooded-sweatshirt-mockup-05_5533442.htm#&position=2&from_view=author"]
+  },
+  "p2": {
+    "id": 1002,
+    "name": "Name",
+    "price": "$10.00",
+    "color": "lavender",
+    "sizes": ["xs", "s", "m", "l", "xl"]
+  },
+  "p3": {
+    "id": 1003,
+    "name": "Name",
+    "price": "$10.00",
+    "color": "lightgreen",
+    "sizes": ["s", "m", "xl"]
+  },
+  "p4": {
+    "id": 1004,
+    "name": "Name",
+    "price": "$10.00",
+    "color": "lightblue",
+    "sizes": ["xs", "m", "l"]
+  },
+  "p5": {
+    "id": 1005,
+    "name": "Name",
+    "price": "$10.00",
+    "color": "black",
+    "sizes": ["xs", "s", "m", "l"]
+  },
+  "p6": {
+    "id": 1006,
+    "name": "Name",
+    "price": "$10.00",
+    "color": "lavender",
+    "sizes": ["xs", "s", "m", "l", "xl"]
+  },
+  "p7": {
+    "id": 1007,
+    "name": "Name",
+    "price": "$10.00",
+    "color": "lightgreen",
+    "sizes": ["s", "m", "xl"]
+  }
+}

@@ -1,0 +1,48 @@
+// paddings and margins
+$body-padding: 30px;
+
+// colors
+$black: rgb(30, 30, 30);
+
+// height
+$header-height: 70px;
+$main-height: calc(100vh - 70px);
+
+// fonts
+$hero-title: 4.5em;
+
+// border
+$border-black: 1px solid black;
+
+@mixin flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin border-bottom-black {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+@mixin white-header {
+  color: white;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+  background-color: transparent;
+
+  & .header__btn::before {
+    background-color: white;
+  }
+}
+
+@mixin black-header {
+    color: black;
+    @include border-bottom-black;
+
+    & .header__btn::before {
+        background-color: black;
+      }
+}
+
+@function sum($a, $b) {
+  @return $a + $b;
+}

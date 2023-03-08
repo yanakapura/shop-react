@@ -1,0 +1,31 @@
+@import "../../../variables.scss";
+
+.product-card {
+  
+    &__description {
+      display: flex;
+      height: 80px;
+      border-top: $border-black;
+      border-bottom: $border-black;
+      background-color: white;
+      padding: 0 $body-padding;
+      align-items: center;
+      cursor: pointer;
+  
+      & > * {
+        height: fit-content;
+      }
+    }
+  
+    &__color {
+      width: 20px;
+      height: 20px;
+      margin-right: 10px;
+      margin-bottom: 20px;
+    }
+  
+    &__name {
+      text-transform: uppercase;
+      line-height: 20px;
+    }
+  }

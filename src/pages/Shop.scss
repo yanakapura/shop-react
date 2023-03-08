@@ -1,0 +1,51 @@
+@import "../variables.scss";
+
+.shop {
+  &__title {
+    display: flex;
+    text-transform: uppercase;
+    font-size: 60px;
+    width: 100%;
+    @include border-bottom-black;
+    // height: 300px;
+    height: 200px;
+    width: 100%;
+    padding: 0 $body-padding;
+    align-items: self-end;
+
+    & h1 {
+      height: fit-content;
+    }
+  }
+
+  &__content {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+}
+
+
+@media (max-width: 575px) {
+}
+@media (min-width: 576px) and (max-width: 767px) {
+}
+@media (min-width: 768px) and (max-width: 991px) {
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .grid__item {
+    height: 480px;
+  }
+
+  .product__image {
+    height: 400px;
+
+    & img {
+      height: 100%;
+      width: auto;
+    }
+  }
+}
+@media (min-width: 1200px) {
+}

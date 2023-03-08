@@ -1,0 +1,16 @@
+.info {
+    &__name {
+        font-size: 40px;
+        text-transform: uppercase;
+        margin-bottom: 30px;
+    }
+
+    &__price {
+        font-size: 20px;
+    }
+
+    &__description {
+        margin: 50px 0;
+    }
+
+}
